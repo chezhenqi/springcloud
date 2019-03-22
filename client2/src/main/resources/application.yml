@@ -1,0 +1,9 @@
+server:
+  port: 8330
+spring:
+  application:
+    name: client2  #全部小写
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/ #需要认证
